@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.indicator.viewpager.IndicatorViewPager
+        android:id="@+id/ivp_test1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        app:iv_fillColor="#ff0000"
+        app:iv_pageColor="#00ff00"
+        app:iv_radius="5dp"
+        app:iv_pointMargin="10dp"
+        app:iv_strokeColor="#0000ff"
+        app:iv_strokeWidth="1dp"
+        app:iv_paddingBottom="40dp"
+        app:iv_gravity="right"
+        app:iv_paddingSide="40dp"
+
+
+        ></com.indicator.viewpager.IndicatorViewPager>
+
+    <com.indicator.viewpager.IndicatorViewPager
+        android:id="@+id/ivp_test2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        app:iv_fillColor="#ff0000"
+        app:iv_pageColor="#00ff00"
+        app:iv_radius="5dp"
+        app:iv_pointMargin="10dp"
+        app:iv_strokeColor="#0000ff"
+        app:iv_strokeWidth="1dp"
+        app:iv_paddingBottom="40dp"
+        app:iv_gravity="center"
+        app:iv_paddingSide="40dp"
+
+        ></com.indicator.viewpager.IndicatorViewPager>
+
+</LinearLayout>
